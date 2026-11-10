@@ -1,0 +1,15 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap" rel="stylesheet">
+<style>
+  /* Headings and site title get a distinct face; body stays Chirpy's default for readability */
+  .content h1, .content h2, .content h3, .content h4,
+  .post-preview .card-title, #sidebar .site-title, #topbar-title {
+    font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+    letter-spacing: -0.01em;
+  }
+  html[data-mode=light] { --link-color: #1f4fd8; }
+  html[data-mode=dark]  { --link-color: #7fa2ff; }
+  @media (prefers-color-scheme: light) { html:not([data-mode]) { --link-color: #1f4fd8; } }
+  @media (prefers-color-scheme: dark)  { html:not([data-mode]) { --link-color: #7fa2ff; } }
+</style>

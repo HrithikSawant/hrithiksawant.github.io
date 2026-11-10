@@ -19,20 +19,19 @@ github:
 
 social:
   name: Hrithik Sawant
-  email: hrithiksawant@example.com
 
   links:
     - https://github.com/HrithikSawant
     - https://www.linkedin.com/in/hrithik-sawant
 
-theme_mode: dark
+timezone: Asia/Kolkata
 
 toc: true
 
 actions:
   edit_post:
     enabled: true
-    url: https://github.com/HrithikSawant/HrithikSawant.github.io/edit/main
+    url: https://github.com/HrithikSawant/hrithiksawant.github.io/edit/main
     static_url: false
 
 comments:
@@ -43,7 +42,6 @@ pwa:
 
 paginate: 10
 
-baseurl: ""
 
 jekyll-archives:
   enabled:
