@@ -14,6 +14,8 @@ description: >
 url: "https://hrithiksawant.github.io"
 baseurl: ""
 
+avatar: /assets/img/avatar.jpg
+
 github:
   username: HrithikSawant
 
