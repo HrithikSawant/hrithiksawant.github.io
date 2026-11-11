@@ -11,7 +11,7 @@ I'm a DevOps and Site Reliability engineer in Mumbai, open to remote work. For t
 ## Selected work
 
 **Backup and recovery for SIEM data at terabyte scale** ([One2N case study](https://one2n.io/case-studies/backup-and-recovery-solution-for-siem-data-at-terabyte-scale))
-An automated backup and restore system for a managed security provider's SIEM platform: 1.5 TB of security data a day, 100+ tenants, tenant-level retention and restore, running for under $200 a month on AWS. I designed and built it on my own in about four months.
+An automated backup and restore system for a managed security provider's SIEM platform: 1.5 TB of security data a day, 100+ tenants, tenant-level retention and restore, running for under $200 a month on AWS.
 
 **Routing sensitive logs to a Syslog server with Log4j2** ([blog post](https://one2n.io/blog/routing-sensitive-logs))
 How we split sensitive logs, out of roughly 10,000 per second, into a separate destination using Log4j2 appenders and central configuration instead of code changes.
