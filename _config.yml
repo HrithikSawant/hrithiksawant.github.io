@@ -53,6 +53,19 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+exclude:
+  - scripts
+  - tools
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
 defaults:
   - scope:
       path: ""
@@ -62,3 +75,14 @@ defaults:
       comments: true
       toc: true
       permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+      dynamic_title: true
