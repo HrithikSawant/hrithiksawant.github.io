@@ -47,6 +47,7 @@ Built a Spring Boot application with role-based access control and JWT-secured R
 - **Kubernetes and observability.** Local clusters running Prometheus, Grafana and Loki, used to practise scaling, rolling updates and troubleshooting from monitoring data.
 - **Customer data pipeline.** A containerised ETL system (Flask, FastAPI, PostgreSQL) with Docker Compose and idempotent upserts.
 - **Go CLI tools.** A `wc` clone, a JSON validator with a hand-written recursive-descent parser, and a seat-allocation engine.
+- **AWS examples.** A public repo of hands-on AWS exercises covering S3, VPC, IAM least-privilege policies, EC2, STS, Route 53 and gateways: [aws-examples](https://github.com/HrithikSawant/aws-examples).
 - **iximiuz Labs.** Hands-on Linux, container and Kubernetes challenges: [my learner profile](https://labs.iximiuz.com/u/hrithiksawant).
 
 ## Education
@@ -55,4 +56,4 @@ M.Sc. and B.Sc. in Computer Science, SIES College (Autonomous), University of Mu
 
 ## Elsewhere
 
-[GitHub](https://github.com/HrithikSawant) · [LinkedIn](https://www.linkedin.com/in/hrithik-sawant) · [iximiuz Labs](https://labs.iximiuz.com/u/hrithiksawant)
+[GitHub](https://github.com/HrithikSawant) · [LinkedIn](https://in.linkedin.com/in/hrithik-sawant-740a46183) · [iximiuz Labs](https://labs.iximiuz.com/u/hrithiksawant)
